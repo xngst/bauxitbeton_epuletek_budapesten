@@ -25,7 +25,7 @@ import requests
 
 from bs4 import BeautifulSoup
 
-OUT_DIR = Path("/media/xunguist/FÉLTERRA/Projektek/Python_projektek/BauxitBeton Térkép")
+OUT_DIR = Path("/BauxitBeton Térkép")
 ```
 
 ### Adatok letöltése az [ÉMI](https://www.emi.hu/EMI/web.nsf/Pub/bauxitbeton_epuletek.html) oldaláról
@@ -501,7 +501,7 @@ t_text = "Bauxitbetonos épületek Budapesten"
 title_html = f"""<h3 align="center" style="font-size:16px"><b>{t_text}</b></h3>"""
 mapit.get_root().html.add_child(folium.Element(title_html))
 
-mapit.save("/media/xunguist/FÉLTERRA/Projektek/Python_projektek/BauxitBeton Térkép/Bauxit_Beton_Budapest_popup.html")
+mapit.save("/BauxitBeton Térkép/Bauxit_Beton_Budapest.html")
 ```
 
 
