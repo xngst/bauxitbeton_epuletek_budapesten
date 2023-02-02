@@ -1,6 +1,6 @@
 ## Bauxitbetonos épületek Budapesten
 
-Ez a repo az ÉMI adatáblázata alapján egy térkép összerakásának teljes [folyamatát](https://github.com/xngst/bauxitbeton_epuletek_budapesten/blob/main/MarkDown/BauxitBeton%20h%C3%A1zak.md) tartalmazza Ipython Notebook és MarkDown formátumban,
+Ez a repo az ÉMI adat-táblázata alapján egy térkép összerakásának teljes [folyamatát](https://github.com/xngst/bauxitbeton_epuletek_budapesten/blob/main/MarkDown/BauxitBeton%20h%C3%A1zak.md) tartalmazza Ipython Notebook és MarkDown formátumban,
 illetve az [interaktív térképet](https://github.com/xngst/bauxitbeton_epuletek_budapesten/tree/main/HTML%20t%C3%A9rk%C3%A9p) html formátumban.
 
 Az ÉMI adatok forrása elérhető [itt.](https://www.emi.hu/EMI/web.nsf/Pub/bauxitbeton_epuletek.html)
